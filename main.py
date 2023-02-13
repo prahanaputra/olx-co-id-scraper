@@ -1,8 +1,8 @@
-import scrapper
+import scraper
 
 input_url = input("Input URL : ")
 
-url = scrapper.WebScrapper(input_url)
+url = scraper.WebScrapper(input_url)
 url.scrape()
 url.find_ul_element()
 url.loop_element()
