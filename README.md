@@ -12,6 +12,7 @@ The things you need before running the code.
 
 * Python 3.10
 * Python virtual environtment
+* Basic HTML and CSS knowledge
 
 ### Installation
 
@@ -39,3 +40,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+### Note
+
+The code is made based on the property category listing. If you want to use this code with different category listing, you can modify this code by changing the element in the loop_element function
